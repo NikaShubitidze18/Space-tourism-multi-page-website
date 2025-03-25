@@ -27,11 +27,3 @@
   line-height: 1.5;
 }
 
-body {
-background-image: url(assets/home/background-home-desktop.jpg);  margin: 0;
-  width: 100%;
-  height: 100dvh;
-  color: var(--txt-clr-1);
-  background-size: cover;
-  background-repeat: no-repeat;
-}

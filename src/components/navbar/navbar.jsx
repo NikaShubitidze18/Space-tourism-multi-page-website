@@ -7,10 +7,10 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
-        {/* Logo */}
-        <Link to="/" className="navbar-brand">
+        {/* Logo (Refresh on Click) */}
+        <a href="/" className="navbar-brand">
           <img src="src/assets/shared/logo.svg" alt="Logo" className="nav-logo" />
-        </Link>
+        </a>
 
         {/* Mobile Menu Button */}
         <button
@@ -24,25 +24,30 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        {/* Nav Links */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
+            {/* Home */}
             <li className="nav-item">
               <Link to="/" className="nav-link">
                 <span>00</span> Home
               </Link>
             </li>
+
+            {/* Destination */}
             <li className="nav-item">
               <Link to="/destination" className="nav-link">
                 <span>01</span> Destination
               </Link>
             </li>
+
+            {/* Crew */}
             <li className="nav-item">
               <Link to="/crew" className="nav-link">
                 <span>02</span> Crew
               </Link>
             </li>
+
+            {/* Technology */}
             <li className="nav-item">
               <Link to="/technology" className="nav-link">
                 <span>03</span> Technology

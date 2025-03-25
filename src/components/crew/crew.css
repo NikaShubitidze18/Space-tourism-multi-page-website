@@ -1,0 +1,75 @@
+body{
+    overflow: hidden;
+}
+.crew-container {
+    background-image: url(crew/background-crew-desktop.jpg);
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row; /* Ensures image is on the right */
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 40px;
+    padding-top: 17%;
+  }
+  
+  .crew-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Evenly spaces text */
+    align-items: flex-start; /* Aligns text to the left */
+    max-width: 45%;
+    
+  }
+  
+  .crew-title {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .crew-name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .crew-role {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
+  .crew-description {
+    max-width: 500px;
+    margin-top: 15px;
+  }
+  
+  .crew-image {
+    width: 400px; /* Ensures all images are the same size */
+    height: 500px; /* Fixed height for uniformity */
+    object-fit: cover; /* Maintains aspect ratio while filling the container */
+    margin-top: 5px; /* Moves the image lower */
+  }
+  
+  .crew-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .crew-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .crew-button.active {
+    background-color: white;
+  }
