@@ -1,0 +1,172 @@
+.technology-container {
+    background-color: #0b0d17;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 40px;
+    background-image: url(technology/background-technology-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Desktop (Default) */
+.technology-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    align-items: center;
+    gap: 40px;
+}
+
+.technology-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start; /* ღილაკები მარცხნივ */
+}
+
+.technology-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.technology-button.active {
+    background-color: white;
+    color: black;
+}
+
+.technology-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: left;
+}
+
+.technology-title {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.technology-description {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.technology-image-container {
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.technology-image {
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* -------- Responsive Design -------- */
+
+/* Tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .technology-container {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20%;
+        box-sizing: border-box;
+    }
+
+    .technology-content {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .technology-buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .technology-text {
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .technology-image-container {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .technology-image {
+        max-width: 100%;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .technology-container {
+        padding: 15px;
+    }
+
+    .technology-title {
+        font-size: 36px;
+    }
+
+    .technology-description {
+        font-size: 18px;
+    }
+
+    .technology-buttons {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .technology-button {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .technology-image {
+        max-width: 90%;
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .technology-title {
+        font-size: 28px;
+    }
+
+    .technology-description {
+        font-size: 16px;
+    }
+
+    .technology-button {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .technology-container {
+        background-image: url(technology/background-technology-mobile.jpg);
+      padding-top: 30%;
+      box-sizing: border-box;
+    }
+    
+}

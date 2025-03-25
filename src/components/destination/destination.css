@@ -129,12 +129,12 @@
   @media (max-width: 768px) {
     .destination-container {
         flex-direction: column; /* Stack elements vertically on smaller screens */
-        padding: 20px;
+padding-top: 20%;
     }
 
     .image-container {
-        width: 300px; /* Smaller image size on mobile */
-        height: 300px;
+        width: 290px; /* Smaller image size on mobile */
+        height: 290px;
     }
 
     h1 {
