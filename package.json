@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://NikaShubitidze18.github.io/Space-tourism-multi-page-website",
+"homepage": "https://NikaShubitidze18.github.io/Space-tourism-multi-page-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
