@@ -1,23 +1,24 @@
+// App.jsx – აღარ გვჭირდება <Router>
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/home/Home";
 import Destination from "./components/destination/Destination";
-import Crew from "./components/crew/Crew"; // Fixed Crew import (capital C)
+import Crew from "./components/crew/Crew";
 import Navbar from "./components/navbar/Navbar";
 import Technology from "./components/technology/technology";
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destination" element={<Destination />} />
-        <Route path="/crew" element={<Crew />} /> {/* Crew Route */}
-        <Route path="/technology" element={<Technology />} /> {/* Technology Route */}
+        <Route path="/crew" element={<Crew />} />
+        <Route path="/technology" element={<Technology />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 

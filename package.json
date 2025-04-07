@@ -1,14 +1,14 @@
 {
-  "name": "my-react-app",
+  "name": "space-tourism-multi-page-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-"homepage": "https://NikaShubitidze18.github.io/Space-tourism-multi-page-website",
+  "homepage": "https://nikashubitidze18.github.io/Space-tourism-multi-page-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
+    "lint": "eslint .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
