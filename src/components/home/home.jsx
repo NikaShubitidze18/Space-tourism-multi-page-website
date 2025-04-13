@@ -1,5 +1,6 @@
 import { Route, Routes, Link, Outlet } from "react-router-dom";
 import "./home.css";
+
 const Home = () => {
   return (
     <div className="home">
