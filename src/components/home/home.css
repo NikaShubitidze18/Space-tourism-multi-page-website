@@ -1,6 +1,6 @@
 
 .home{
-  background:url(home/background-home-desktop.jpg);
+  background:url(../../../public/home/background-home-desktop.jpg);
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
@@ -117,7 +117,7 @@
 
 @media (max-width: 768px) {
   .home{
-    background: url(./home-assets/background-home-tablet.jpg);
+    background: url(../../../public/home/background-home-tablet.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -159,7 +159,7 @@
 
 @media (max-width: 500px) {
   .home{
-    background: url(home/background-home-mobile.jpg);
+    background: url(../../../public/home/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;

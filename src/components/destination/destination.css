@@ -1,6 +1,6 @@
 
 .destination-container {
-  background-image: url(destination/background-destination-desktop.jpg);
+  background-image: url(../../../public/destination/background-destination-desktop.jpg);
    width: 100%;
     display: flex;
     flex-direction: row;

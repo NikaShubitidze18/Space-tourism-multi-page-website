@@ -6,28 +6,28 @@ const crewMembers = [
     role: "Flight Engineer",
     description:
       "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. She was the first self-funded woman to fly to the ISS and the first Iranian in space.",
-    image: "src/components/crew/crew/image-anousheh-ansari.png",
+    image: "public/crew/image-anousheh-ansari.png",
   },
   {
     name: "Douglas Hurley",
     role: "Mission Specialist",
     description:
       "Douglas Hurley is a retired NASA astronaut and a former Marine Corps test pilot. He was part of the first crewed SpaceX mission to the ISS.",
-    image: "src/components/crew/crew/image-douglas-hurley.png",
+    image: "public/crew/image-douglas-hurley.png",
   },
   {
     name: "Mark Shuttleworth",
     role: "Space Tourist",
     description:
       "Mark Shuttleworth is a South African entrepreneur and the second self-funded space tourist. He flew to the ISS aboard a Russian Soyuz spacecraft.",
-    image: "src/components/crew/crew/image-mark-shuttleworth.png",
+    image: "public/crew/image-mark-shuttleworth.png",
   },
   {
     name: "Victor Glover",
     role: "Pilot",
     description:
       "Victor Glover is a NASA astronaut and a U.S. Navy pilot. He was part of NASA’s SpaceX Crew-1 mission, spending months aboard the ISS.",
-    image: "src/components/crew/crew/image-victor-glover.png",
+    image: "public/crew/image-victor-glover.png",
   },
 ];
 

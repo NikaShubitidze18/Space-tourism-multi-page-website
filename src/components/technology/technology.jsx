@@ -7,21 +7,21 @@ const technologyData = [
     title: "LAUNCH VEHICLE",
     description:
       "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond.",
-    image: "src/components/technology/technology/image-launch-vehicle-portrait.jpg",
+    image: "public/technology/image-launch-vehicle-portrait.jpg",
   },
   {
     id: 2,
     title: "SPACEPORT",
     description:
       "A spaceport or cosmodrome is a site for launching or receiving spacecraft. Our spaceport is based in a remote location for safety and efficiency.",
-    image: "src/components/technology/technology/image-space-capsule-portrait.jpg",
+    image: "public/technology/image-space-capsule-portrait.jpg",
   },
   {
     id: 3,
     title: "SPACE CAPSULE",
     description:
       "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter Earth's atmosphere safely.",
-    image: "src/components/technology/technology/image-spaceport-portrait.jpg",
+    image: "public/technology/image-spaceport-portrait.jpg",
   },
 ];
 

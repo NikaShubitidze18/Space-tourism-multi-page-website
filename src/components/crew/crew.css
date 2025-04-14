@@ -4,7 +4,7 @@ body {
 
 /* Desktop ვერსია (Default) */
 .crew-container {
-  background-image: url(crew/background-crew-desktop.jpg);
+  background-image: url(../../../public/crew/background-crew-desktop.jpg);
   position: relative;
   min-height: 100vh;
   background-size: cover;
@@ -112,7 +112,7 @@ body {
 @media screen and (max-width: 767px) {
   .crew-container {
       padding-top: 35%;
-      background-image: url(crew/background-crew-mobile.jpg);
+      background-image: url(../../../public/crew/background-crew-mobile.jpg);
   }
 
   .crew-content {
